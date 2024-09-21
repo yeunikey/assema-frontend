@@ -1,0 +1,23 @@
+@media (min-width: 300px) and (max-width: 600px) {
+    .title {
+        font-size: 100px !important;
+    }
+    .heart__content svg {
+        width: 200px !important;
+    }
+    .roll {
+        bottom: -200px !important;
+    }
+    .roll svg {
+        width: 500px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .roll {
+        bottom: -300px !important;
+    }
+    .roll svg {
+        width: 600px !important;
+    }
+}

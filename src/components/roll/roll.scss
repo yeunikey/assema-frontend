@@ -1,0 +1,29 @@
+.roll {
+    position: absolute;
+
+    bottom: -450px;
+    left: -200px;
+
+    opacity: 0.5;
+
+    animation-name: wireframe;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+    & svg {
+        width: 800px;
+        height: auto;
+    }
+}
+
+@keyframes wireframe {
+    0% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: 25deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
